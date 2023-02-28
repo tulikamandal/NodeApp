@@ -1,0 +1,96 @@
+body {
+  font-family: Arial;
+  background-color: #231E28;
+}
+
+@font-face {
+  font-family: GorditaBlack;
+  src: url(../Fonts/Gordita\ Black.otf);
+}
+
+@font-face {
+  font-family: GorditaThin;
+  src: url(../Fonts/Gordita\ Thin.otf);
+}
+
+/* tab style */
+.tab {
+  overflow: hidden;
+  border: 2px solid #FD5F07;
+  /*background-color: #f1f1f1*/
+  background-color: none;
+  border-radius: 10px;
+}
+
+/* Style the buttons inside the tab */
+.tab a button{
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 14px;
+  width: 20%;
+  align-text: centre;
+  color: #fff;
+}
+
+.tab a button:hover {
+  background-color: #FD5F07;
+}
+
+.tab a button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* For Navbar Logo*/
+.navlogo {
+  src: url(../Assets/Persistent_Logo_Horizontal_Orange_Silver.png);
+  height: 40px;
+   width: auto;
+}
+
+table,
+th,
+td {
+  border: 2px solid #ccc;
+  border-collapse: collapse;
+  padding: 14px;
+  color: #fff;
+}
+
+.align {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: #fff;
+  font-family: GorditaBlack;
+}
+
+.align img {
+  height: 40px;
+  width: auto;
+}
+
+.searchBox {
+  width: 20%;
+  padding: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  color: #FD5F07;
+  background: none;
+
+}

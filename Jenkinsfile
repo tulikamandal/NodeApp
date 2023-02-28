@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'npm install'
-                bat 'npm start &'
+                bat 'nohup npm start &'
             }
         }
         
